@@ -1,11 +1,19 @@
-"use client"
-import Image from "next/image";
-// import {  AppBar,Sidebar  }  from "@/Components";
-export default function Home() {
+import React from 'react'
+import { Appbar,CardDefault } from '@/components'
+const Home = () => {
   return (
-    <main className="bg-dark h-screen">
-    <h1 className="text-center text-2xl"> home page</h1>
-   
-    </main>
-  );
+    <div className='font grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-items-center gap-4'>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+      <CardDefault/>
+    </div>
+  )
 }
+
+export default Home

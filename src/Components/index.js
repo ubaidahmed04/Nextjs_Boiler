@@ -1,4 +1,8 @@
-import { AppBar } from "./AppBar";
-import {Sidebar} from './Sidebar'
-import {SplashScreen} from './Splashscreen'
-export {AppBar,Sidebar,SplashScreen}
+import {Appbar } from './Header'
+import {Footer} from './Footer'
+import {CardDefault} from './Cards'
+export {
+    Appbar,
+    CardDefault,
+    Footer
+}
